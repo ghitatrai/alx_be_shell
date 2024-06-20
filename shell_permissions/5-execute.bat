@@ -1,2 +1,2 @@
-@echo off
-icacls hello /grant:r "%USERNAME%":(RX)
+#!/bin/bash
+chmod u+x hello
